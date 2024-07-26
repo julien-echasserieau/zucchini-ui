@@ -4,7 +4,7 @@ import io.zucchiniui.backend.comment.domain.Comment;
 import io.zucchiniui.backend.comment.domain.CommentQuery;
 import io.zucchiniui.backend.shared.domain.ItemReference;
 import io.zucchiniui.backend.support.ddd.morphia.BaseMorphiaQuery;
-import xyz.morphia.query.Query;
+import dev.morphia.query.Query;
 
 class CommentQueryImpl extends BaseMorphiaQuery<Comment> implements CommentQuery {
 

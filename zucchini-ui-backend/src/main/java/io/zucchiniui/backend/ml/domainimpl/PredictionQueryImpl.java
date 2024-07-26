@@ -3,7 +3,7 @@ package io.zucchiniui.backend.ml.domainimpl;
 import io.zucchiniui.backend.ml.domain.PredictionInformation;
 import io.zucchiniui.backend.ml.domain.PredictionQuery;
 import io.zucchiniui.backend.support.ddd.morphia.BaseMorphiaQuery;
-import xyz.morphia.query.Query;
+import dev.morphia.query.Query;
 
 public class PredictionQueryImpl extends BaseMorphiaQuery<PredictionInformation> implements PredictionQuery {
 

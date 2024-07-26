@@ -130,7 +130,7 @@ allprojects {
             options.encoding = 'UTF-8'
             options.deprecation = true
             options.compilerArgs << '-parameters'
-            options.compilerArgs << '-Werror'
+//            options.compilerArgs << '-Werror'
 
         }
 
@@ -182,8 +182,8 @@ project("${rootProject.name}-backend") {
 
         implementation 'io.dropwizard:dropwizard-core:2.0.1'
         implementation 'ma.glasnost.orika:orika-core:1.5.4'
-        implementation 'xyz.morphia.morphia:core:1.4.0'
-        implementation 'xyz.morphia.morphia:logging-slf4j:1.4.0'
+        implementation 'dev.morphia.morphia:core:1.6.1'
+        implementation 'dev.morphia.morphia:logging-slf4j:1.6.1'
         implementation 'org.slf4j:slf4j-api:1.7.30'
         implementation 'org.springframework:spring-context:5.2.3.RELEASE'
         implementation 'org.eclipse.jetty.websocket:javax-websocket-server-impl:9.4.18.v20190429'

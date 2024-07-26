@@ -3,7 +3,7 @@ package io.zucchiniui.backend.support.ddd.morphia;
 import io.zucchiniui.backend.support.ddd.ConcurrentEntityModificationException;
 import io.zucchiniui.backend.support.ddd.EntityNotFoundException;
 import io.zucchiniui.backend.support.ddd.Repository;
-import xyz.morphia.dao.BasicDAO;
+import dev.morphia.dao.BasicDAO;
 
 import java.util.ConcurrentModificationException;
 

@@ -1,8 +1,8 @@
 package io.zucchiniui.backend.support.morphia;
 
-import xyz.morphia.converters.SimpleValueConverter;
-import xyz.morphia.converters.TypeConverter;
-import xyz.morphia.mapping.MappedField;
+import dev.morphia.converters.SimpleValueConverter;
+import dev.morphia.converters.TypeConverter;
+import dev.morphia.mapping.MappedField;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;

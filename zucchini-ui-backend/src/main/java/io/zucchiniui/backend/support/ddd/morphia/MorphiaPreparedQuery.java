@@ -2,8 +2,8 @@ package io.zucchiniui.backend.support.ddd.morphia;
 
 import io.zucchiniui.backend.support.ddd.EntityNotFoundException;
 import io.zucchiniui.backend.support.ddd.PreparedQuery;
-import xyz.morphia.dao.DAO;
-import xyz.morphia.query.Query;
+import dev.morphia.dao.DAO;
+import dev.morphia.query.Query;
 
 import java.util.List;
 import java.util.Optional;

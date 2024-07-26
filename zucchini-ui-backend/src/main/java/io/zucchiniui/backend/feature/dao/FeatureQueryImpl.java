@@ -3,7 +3,7 @@ package io.zucchiniui.backend.feature.dao;
 import io.zucchiniui.backend.feature.domain.Feature;
 import io.zucchiniui.backend.feature.domain.FeatureQuery;
 import io.zucchiniui.backend.support.ddd.morphia.BaseMorphiaQuery;
-import xyz.morphia.query.Query;
+import dev.morphia.query.Query;
 
 import java.util.Collection;
 

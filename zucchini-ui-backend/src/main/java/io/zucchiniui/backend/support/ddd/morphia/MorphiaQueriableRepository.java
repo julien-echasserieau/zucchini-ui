@@ -2,7 +2,7 @@ package io.zucchiniui.backend.support.ddd.morphia;
 
 import io.zucchiniui.backend.support.ddd.PreparedQuery;
 import io.zucchiniui.backend.support.ddd.QueriableRepository;
-import xyz.morphia.query.Query;
+import dev.morphia.query.Query;
 
 import java.util.function.Consumer;
 

@@ -6,10 +6,10 @@ import com.mongodb.MongoClientOptions;
 import com.mongodb.MongoClientURI;
 import io.dropwizard.setup.Environment;
 import io.zucchiniui.backend.support.autocloseable.AutoCloseableManagedAdapter;
-import xyz.morphia.Datastore;
-import xyz.morphia.Morphia;
-import xyz.morphia.logging.MorphiaLoggerFactory;
-import xyz.morphia.logging.slf4j.SLF4JLoggerImplFactory;
+import dev.morphia.Datastore;
+import dev.morphia.Morphia;
+import dev.morphia.logging.MorphiaLoggerFactory;
+import dev.morphia.logging.slf4j.SLF4JLoggerImplFactory;
 
 public class MorphiaDatastoreBuilder {
 
@@ -36,7 +36,7 @@ public class MorphiaDatastoreBuilder {
         }
 
         // Init client options
-        final MongoClientOptions.Builder optionBuilder = MongoClientOptions.builder().description(name);
+        final MongoClientOptions.Builder optionBuilder = MongoClientOptions.builder();
 
         // Create client
         final MongoClientURI clientURI = new MongoClientURI(uri, optionBuilder);

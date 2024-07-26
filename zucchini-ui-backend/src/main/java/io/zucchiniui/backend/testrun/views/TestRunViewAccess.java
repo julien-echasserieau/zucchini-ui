@@ -12,7 +12,7 @@ import io.zucchiniui.backend.testrun.domain.TestRunQuery;
 import io.zucchiniui.backend.testrun.domain.TestRunRepository;
 import ma.glasnost.orika.BoundMapperFacade;
 import org.springframework.stereotype.Component;
-import xyz.morphia.query.FindOptions;
+import dev.morphia.query.FindOptions;
 
 import java.util.Comparator;
 import java.util.List;

@@ -1,7 +1,7 @@
 package io.zucchiniui.backend.ml.domain;
 
-import xyz.morphia.annotations.Entity;
-import xyz.morphia.annotations.Id;
+import dev.morphia.annotations.Entity;
+import dev.morphia.annotations.Id;
 
 import java.util.List;
 

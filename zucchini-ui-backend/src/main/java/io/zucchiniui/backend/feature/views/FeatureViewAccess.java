@@ -10,7 +10,7 @@ import io.zucchiniui.backend.support.ddd.morphia.MorphiaUtils;
 import io.zucchiniui.backend.testrun.domain.TestRunQuery;
 import io.zucchiniui.backend.testrun.domain.TestRunRepository;
 import ma.glasnost.orika.BoundMapperFacade;
-import xyz.morphia.query.Query;
+import dev.morphia.query.Query;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

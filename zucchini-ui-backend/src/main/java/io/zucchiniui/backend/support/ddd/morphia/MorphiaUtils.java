@@ -1,8 +1,8 @@
 package io.zucchiniui.backend.support.ddd.morphia;
 
-import xyz.morphia.query.FindOptions;
-import xyz.morphia.query.MorphiaIterator;
-import xyz.morphia.query.Query;
+import dev.morphia.query.FindOptions;
+import dev.morphia.query.MorphiaIterator;
+import dev.morphia.query.Query;
 
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;

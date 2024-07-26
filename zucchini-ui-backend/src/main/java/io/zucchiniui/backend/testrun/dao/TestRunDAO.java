@@ -5,8 +5,8 @@ import io.zucchiniui.backend.campaign.views.Campaign;
 import io.zucchiniui.backend.support.ddd.morphia.MorphiaTypedQueryDAO;
 import io.zucchiniui.backend.testrun.domain.TestRun;
 import io.zucchiniui.backend.testrun.domain.TestRunQuery;
-import xyz.morphia.Datastore;
-import xyz.morphia.query.Query;
+import dev.morphia.Datastore;
+import dev.morphia.query.Query;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;

@@ -5,8 +5,8 @@ import io.zucchiniui.backend.ml.domain.PredictionQuery;
 import io.zucchiniui.backend.ml.domainimpl.PredictionQueryImpl;
 import io.zucchiniui.backend.support.ddd.morphia.MorphiaTypedQueryDAO;
 import org.springframework.stereotype.Component;
-import xyz.morphia.Datastore;
-import xyz.morphia.query.Query;
+import dev.morphia.Datastore;
+import dev.morphia.query.Query;
 
 import java.util.function.Consumer;
 

@@ -1,8 +1,8 @@
 package io.zucchiniui.backend.support.ddd.morphia;
 
-import xyz.morphia.Datastore;
-import xyz.morphia.dao.BasicDAO;
-import xyz.morphia.query.Query;
+import dev.morphia.Datastore;
+import dev.morphia.dao.BasicDAO;
+import dev.morphia.query.Query;
 
 import java.util.function.Consumer;
 
