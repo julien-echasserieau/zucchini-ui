@@ -15,7 +15,6 @@ buildscript {
 }
 
 plugins {
-    id 'com.github.ben-manes.versions' version '0.27.0'
     id 'com.google.osdetector' version '1.6.2'
     id 'org.ajoberstar.grgit' version '4.0.1'
     id 'com.github.spotbugs' version '3.0.0' apply false
@@ -43,7 +42,6 @@ allprojects {
     apply plugin: 'idea'
     apply plugin: DockerPlugin
     apply plugin: NodePlugin
-    apply plugin: 'com.github.ben-manes.versions'
 
     repositories {
         mavenLocal()
@@ -153,21 +151,6 @@ allprojects {
         }
 
     }
-
-    // Remove milestones, release candidates, etc from dependency updates check
-    dependencyUpdates.resolutionStrategy = {
-        componentSelection { rules ->
-            rules.all { ComponentSelection selection ->
-                boolean rejected = ['alpha', 'beta', 'rc', 'cr', 'm'].any { qualifier ->
-                    selection.candidate.version ==~ /(?i).*-${qualifier}.*/
-                }
-                if (rejected) {
-                    selection.reject('Release candidate')
-                }
-            }
-        }
-    }
-
 
 }
 
